@@ -1,0 +1,115 @@
+.dway-slideshow {
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+	overflow: hidden;
+}
+
+.dway-slideshow a, .dway-slideshow a img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.dway-slideshow ul {
+	list-style: none;
+}
+
+.dway-main-slider {
+	padding: 0px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+	width: 628px;
+	height: 398px;
+	border: 1px solid #676767;
+	overflow: hidden;
+	position: relative;
+}
+
+.dway-main-slider a, .dway-main-slider img {
+	margin: 0px;
+	padding: 0px;
+	width: 630px;
+	height: 400px;
+	float: left;
+}
+
+.dway-main-slider-content {
+	width: 630px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.dway-second-slider, .dway-third-slider {
+	float: left;
+	width: 308px;
+	height: 188px;
+	border: 1px solid #676767;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+.dway-second-slider {
+	margin-bottom: 20px;
+}
+
+.dway-second-slider a, .dway-second-slider img, .dway-third-slider a, .dway-third-slider img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	width: 310px;
+	height: 190px;
+	float: left;
+}
+
+.dway-second-slider-content {
+	position: absolute;
+}
+
+.dway-third-slider-content {
+	position: absolute;
+	left: 0px;
+	height: 190px;
+}
+
+.dway-third-slider-content a, .dway-third-slider-content img {
+	float: left;
+}
+
+.dway-controls {
+	clear: both;
+	width: 960px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 13px 0px 0px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.dway-controls ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 6px;
+}
+
+.dway-controls li {
+	display: inline;
+	margin: 0 3px;
+	padding:14px 0px 0px;
+}
+
+.dway-controls li a, .dway-controls li a.active {
+	display: inline-block;
+	width:14px;
+	height:14px;
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+	background:url(images/bg-controls.png) no-repeat right top;
+}
+
+.dway-controls li a.active, .dway-controls li a:hover {
+	background: url(images/bg-controls.png) no-repeat left top;
+}

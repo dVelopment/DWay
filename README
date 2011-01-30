@@ -1,0 +1,35 @@
+DWay is a three way slider based on prototype (http:/prototypejs.org/), script.aculo.us (http://script.aculo.us/) and the SmoothScroll effect from Bruno Bornsztein's "Glider" (http://www.missingmethod.com/projects/glider/)
+
+== Installation/Usage
+Put the 3 files in the /lib folder and Dway.js (/src folder) into a directory on your webserver (e.g. /js).
+Copy the stylesheet dway.css to a directory on your webserver (e.g. /css)
+
+Add the following tags to the HEAD section of your HTML page:
+
+    <script src="js/prototype.js" type="text/javascript"></script>
+    <script src="js/effects.js" type="text/javascript"></script>
+    <script src="js/effect.smoothscroll.js"></script>
+    <script src="js/Dway.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/dway.css" />
+
+Create a <ul> inside a <div>, containing the images in <li>-elements. (If the number of <li>-elements isn't divisable by 3, the last one(s) will be ignored and removed from the DOM.)
+
+Initiate the DWay slider by passing the id of the <div>-element.
+
+    var myDway = new DWay('idOfWrapperDiv');
+    
+Available options:
+duration: duration of transition in seconds (as float) - default: 0.5
+frequency: seconds to wait between automatic transition - default: 5
+startIndex: index of the image-set you want to display after setup - default: 0
+
+Pass the options as second parameter.
+
+    var myDway = new DWay('idOfWrapperDiv', {duration: 0.4, frequency: 3});
+    
+== License
+
+DWay is licensed under the terms of the GPL License.
+See the included GPL-license.txt file.
+
+The sample images contained in the example folder are licensed under creative commons license.
