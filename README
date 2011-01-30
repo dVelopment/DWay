@@ -19,13 +19,14 @@ Initiate the DWay slider by passing the id of the <div>-element.
     var myDway = new DWay('idOfWrapperDiv');
     
 Available options:
-duration: duration of transition in seconds (as float) - default: 0.5
-frequency: seconds to wait between automatic transition - default: 5
-startIndex: index of the image-set you want to display after setup - default: 0
+    duration: duration of transition in seconds (as float) - default: 0.5
+    frequency: seconds to wait between automatic transition - default: 5
+    autoStart: start and repeat transitions after setup - default: false
+    startIndex: index of the image-set you want to display after setup - default: 0
 
 Pass the options as second parameter.
 
-    var myDway = new DWay('idOfWrapperDiv', {duration: 0.4, frequency: 3});
+    var myDway = new DWay('idOfWrapperDiv', {duration: 0.4, frequency: 3, autoStart: true});
     
 == License
 
